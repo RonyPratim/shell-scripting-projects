@@ -1,6 +1,6 @@
 #!/bin/bash
 ##########
-# About : This script tells about the list of collaborators for a particular organization 
+# About : This script tells about the list of collaborators for a particular organization with read access
 # e.g. for an org devops-pratice-pratim for a particular repository e.g. shell-scripting
 # this script also tells about that which user has the permission to pull request GitHub API URL
 # Owner : Abhishek Veeramalla (Forked by RonyPratim)
