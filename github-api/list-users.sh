@@ -1,5 +1,16 @@
 #!/bin/bash
+##########
+# About : This script tells about the list of collaborators for a particular organization 
+# e.g. devops-pratice-pratim for a particular repository e.g. shell-scripting
+# this script also tells about that which user has the permission to pull request
+# GitHub API URL
+# Owner : RonyPratim
+# Input : Input should be taken from user as a command line argument while executing the script
+# user should provide the repoowner and reponame as an input
+# notes : before execute user should export the username and token of the github account
+##########
 
+helper()
 # GitHub API URL
 API_URL="https://api.github.com"
 
@@ -36,6 +47,14 @@ function list_users_with_read_access {
     fi
 }
 
+function helper{
+command_line_arguments=2
+if [ $# -ne $command_line_arguments]; then
+echo " Please execute the script with required cmd arguments"
+echo "asd"
+fi
+
+}
 # Main script
 
 echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
