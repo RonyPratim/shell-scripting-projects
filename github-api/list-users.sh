@@ -1,13 +1,12 @@
 #!/bin/bash
 ##########
 # About : This script tells about the list of collaborators for a particular organization 
-# e.g. devops-pratice-pratim for a particular repository e.g. shell-scripting
-# this script also tells about that which user has the permission to pull request
-# GitHub API URL
-# Owner : RonyPratim
+# e.g. for an org devops-pratice-pratim for a particular repository e.g. shell-scripting
+# this script also tells about that which user has the permission to pull request GitHub API URL
+# Owner : Abhishek Veeramalla (Forked by RonyPratim)
 # Input : Input should be taken from user as a command line argument while executing the script
-# user should provide the repoowner and reponame as an input
-# notes : before execute user should export the username and token of the github account
+# user should provide the repoowner and reponame as command line argument
+# notes : before execute, user should export the username and token of the github account
 ##########
 
 helper()
